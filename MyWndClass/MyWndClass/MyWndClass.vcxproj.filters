@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Objects">
+      <UniqueIdentifier>{29cd662a-9db2-412b-ab9a-ef1c7d143720}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyWndClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="XWndClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="XGameEngine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="XObject.h">
+      <Filter>头文件\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="XRectangle.h">
+      <Filter>头文件\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="XSnake.h">
+      <Filter>头文件\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="XInputClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="XFood.h">
+      <Filter>头文件\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="XFastFood.h">
+      <Filter>头文件\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="XMoveFood.h">
+      <Filter>头文件\Objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyWndClass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="XWndClass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="XGameEngine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="XObject.cpp">
+      <Filter>头文件\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="XRectangle.cpp">
+      <Filter>头文件\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="XSnake.cpp">
+      <Filter>头文件\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="XInputClass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="XFood.cpp">
+      <Filter>头文件\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="XFastFood.cpp">
+      <Filter>头文件\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="XMoveFood.cpp">
+      <Filter>头文件\Objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
